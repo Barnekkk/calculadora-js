@@ -33,6 +33,7 @@
     margin: 0.1vw;
     color: #fff;
     margin: 0.3vw;
+    border: 0.5vw;
 
 }
 
@@ -63,7 +64,7 @@
 }
 
 .resultado{
-    width: 20vw;
+    width: 21vw;
     align-items: center;
     background-color: #fff;
     height: 4vw;
@@ -73,6 +74,7 @@
     padding: 0.7vw;
     font-size: 2vw;
     border-radius: 3vw;
+    border: 1vw;
 }
 
 #igual{
