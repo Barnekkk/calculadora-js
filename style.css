@@ -1,0 +1,81 @@
+.fileira{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 6vw;
+}
+
+.calculadora{
+	position: absolute;
+    background: rgb(2,0,36);
+    background-color: rgb(14, 14, 88);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1vw;
+    height: 35vw;
+    width: 24.3vw;
+    padding: 3vw;
+    font-size: 1.5vw;
+    color: rgb(0, 0, 0);
+    border: 0.3vh #000;
+}
+
+.botao{
+    width: 5vw;
+    border-radius: 3vw;
+    height: 5vw;
+    font-size: 2vw;
+    cursor: pointer;
+    background-color: rgb(21, 21, 21);
+    margin: 0.1vw;
+    color: #fff;
+    margin: 0.3vw;
+
+}
+
+.botao:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(86,86,233,1) 0%, rgba(0,48,136,1) 100%);
+}
+
+.fundo{
+    background-color:rgb(255, 255, 255);
+    height: 100vh;
+    color:aliceblue;
+    text-align: center;
+    display: flex;
+
+}
+
+#display{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(21, 21, 21);
+    border-radius: 1vw;
+    font-size: 2vw;
+    color: #fff;
+    text-align: right;
+    padding: 1vw;
+    margin-bottom: 1vw;
+}
+
+.resultado{
+    width: 20vw;
+    align-items: center;
+    background-color: #fff;
+    height: 4vw;
+    margin: 1vw;
+    font-size: 3.5vw;
+    color: rgb(0, 0, 0);
+    padding: 0.7vw;
+    font-size: 2vw;
+    border-radius: 3vw;
+}
+
+#igual{
+    width: 22vw;
+    margin: 1vw;
+}
